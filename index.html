@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+</head>
+
+<body>
+
+  <header class="p-3 bg-dark text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <ion-icon name="home-outline" class="navbar-brand"></ion-icon>
+        </a>
+        <h3 style="margin-right: 20px;" class="hfont">MyHome</h3>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 text-secondary link fontstyle">Home</a></li>
+          <li><a href="Html/about_us.html" class="nav-link px-2 text-white link fontstyle">About Us</a></li>
+          <li><a href="Html/terms&condition.html" class="nav-link px-2 text-white link fontstyle">Terms & Condition</a></li>
+          <li><a href="Html/privacy_policy.html" class="nav-link px-2 text-white link fontstyle">privecy policy</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-primary me-2 fontstyle"><a style="color: white; text-decoration: none;"
+              href="Html/login.html">Login</a></button>
+          <button type="button" class="btn btn-outline-primary me-2 fontstyle"><a style="color: white; text-decoration: none;"
+              href="Html/resister.html">Register</a></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="myCarousel" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"
+        aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/image1.jpeg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777"></rect>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="hfont">My Home</h1>
+            <h3 class="fontstyle" style="color: white;">Inspiration Starts at Home.</h3>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/image6.jpg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777"></rect>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="hfont">My belife</h1>
+            <h3 class="fontstyle" style="color: white;">Believe that life is worth living and your belief will help
+              create the fact..</h3>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/image7.jpg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777"></rect>
+
+        <div class="container">
+          <div class="carousel-caption text-end" style="text-align: center;">
+            <h1 class="hfont">My security</h1>
+            <h3 class="fontstyle" style="color: white;">Your Safety Is Our Priority.</hh3>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"></button>
+  </div>
+
+  <div class="container marketing" style="margin-top: 100px;">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4 shadow bg-light">
+        <img src="image/homeimage.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+          aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+
+          <h2 class="hfont">Home</h2>
+          <p class="fontstyle">There is nothing more important than a good, safe, secure home.
+            Home is a place you grow up wanting to leave, and grow old wanting to get back to.
+            There’s no place like home.
+            Where we love is home- home that our feet may leave, but not our hearts.
+            In this home… We do second chances. We do real. We do mistakes. We do Im sorrys. We do loud really well.
+            We do</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 shadow bg-light">
+        <img src="image/yes.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+          aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+
+          <h2 class="hfont">belife</h2>
+          <p class="fontstyle">Believe in your heart that you're meant to live a life full of passion, purpose, magic
+            and miracles.
+            Be brave to stand for what you believe in even if you stand alone.
+            Great things happen to those who don't stop believing, trying, learning, and being grateful.
+            Believe in your infinite potential. Your only limitations are those you set upon yourself.</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 shadow bg-light">
+        <img src="image/lock5.jpg" class="bd-placeholder-img rounded-circle bg-light shadow" width="140" height="140"
+          role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+
+          <h2 class="hfont">security</h2>
+          <p class="fontstyle">People are afraid of things they don't understand. They don't know how to relate. It
+            threatens their security,
+            their existence, their career, image.
+            If money is your hope for independence you will never have it. The only real security that a man will have
+            in
+            this world is a reserve of knowledge, belife, and ability.</p>
+
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    <h2 style="text-align: center; margin-top: 30px; margin-bottom: 50px;" class="container-fluid hfont">easy actions on
+      the website that need to be completed</h2>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading hfont">Login <span class="text-muted hfont">Sign in and say hello!.</span></h2>
+        <p class="lead fontstyle">The user credentials are typically some form of a username and a password,[1] and
+          these credentials themselves are sometimes referred to as a login.[2]
+
+          In practice, modern secure systems often require a second factor such as email or SMS confirmation for extra
+          security.
+
+          Social login allows a user to use an existing cell phone number, or user credentials from another email or
+          social networking service to sign in or create an account on a new website.</p>
+        <ul class="lead fontstyle">
+          <li>Protect your identity with two-step authentication</li>
+          <li>use any device to authenticate login.</li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <img src="image/login2.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto shadow bg-light"
+          width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+          focusable="false">
+        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading hfont">Verify <span class="text-muted hfont">Truth for us is simply a collective
+            name for verification processes</span></h2>
+        <p class="lead fontstyle">Verification refers to the act of establishing or testing the truth or correctness of
+          a fact, theory, statement, etc., by means of special investigation or comparison of data. Put another way, it
+          is the act of seeking out corroborating evidence that would give us greater confidence that something is in
+          fact true.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="image/verify.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto shadow bg-light"
+          width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+          focusable="false">
+        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading hfont">Transact <span class="text-muted hfont">Your Trusted Transaction
+            Partner</span></h2>
+        <p class="lead fontstyle">A transaction is a completed agreement between a buyer and a seller to exchange goods,
+          services, or financial assets in return for money. The term is also commonly used in corporate accounting. In
+          business bookkeeping, this plain definition can get tricky. </p>
+        <ul class="lead fontstyle">
+          <li>A transaction involves a monetary exchange for a good or service.</li>
+          <li>Transactions can be a little more tricky when it comes to corporate accounting.</li>
+          <li>Accrual accounting recognizes a transaction immediately after it is finalized, regardless of when payment
+            is received or made.</li>
+          <li>Cash accounting is used mostly by smaller businesses and records a transaction only when money is received
+            or paid out.</li>
+          <li>Third-party transactions can often complicate the process.</li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <img src="image/transact.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto shadow bg-light"
+          width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+          focusable="false">
+        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div>
+
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item link fontstyle"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item link fontstyle"><a href="Html/about_us.html" class="nav-link px-2 text-muted">About us</a></li>
+      <li class="nav-item link fontstyle"><a href="Html/terms&condition.html" class="nav-link px-2 text-muted">Terms & Condition</a></li>
+      <li class="nav-item link fontstyle"><a href="Html/privacy_policy.html" class="nav-link px-2 text-muted">privecy policy</a></li>
+
+    </ul>
+    <p class="text-center text-muted fontstyle">© 2021 Company, Inc</p>
+    <div class="d-flex justify-content-center">
+      <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="" style="margin-left: 20px;"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="" style="margin-left: 20px;"><ion-icon name="logo-twitter"></ion-icon></a>
+    </div>
+  </footer>
+
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/popper.js"></script>
+</body>
+
+</html>
